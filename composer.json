@@ -1,0 +1,26 @@
+{
+  "name": "miniorange/user-sync-for-azure-office365",
+  "description": "This plugin will allow you to sync users from Azure AD / Azure B2C / Office 365 to wordpress.",
+  "type": "plugin",
+  "keywords": ["Azure AD","Microsoft","Graph","Azure B2C","WordPress"],
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "miniOrange",
+      "email": "samlsupport@xecurify.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MoAzureObjectSync\\": "",
+      "MoAzureObjectSync\\View\\": "View",
+      "MoAzureObjectSync\\Wrappers\\": "Wrappers",
+      "MoAzureObjectSync\\API\\": "API",
+      "MoAzureObjectSync\\Controller\\": "Controller",
+      "MoAzureObjectSync\\Observer\\": "Observer"
+    }
+  }
+}
